@@ -44,15 +44,15 @@ config.cipher = {
   client: {
     // required, passphrase is the encoding key
     passphrase: 'nKJzOSeabeaOsIV4cK3H0lEO07U4DzGf',
-    // default bc-cbc
-    cipher: 'bc-cbc',
+    // default bf-cbc
+    cipher: 'bf-cbc',
     // default input encoding: utf-8
     inputEncoding: 'utf8',
     // default output encoding: hex
     outputEncoding: 'hex',
     // default ttl:0, means never expires.
     defaultTTL: 0,
-    // default iv length 8 for bc-cbc 
+    // default iv length 8 for bf-cbc 
     ivLength: 8
   },
 };
